@@ -1,15 +1,36 @@
 {
-    "atomType": "Molecule",
-    "name": "Surfboard-shaping-stand",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "dbba3914-b2b2-4108-9e7a-d610e0ac5502",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Surfboard-shaping-stand",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "dbba3914-b2b2-4108-9e7a-d610e0ac5502",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "e8a5c893-cafe-498e-80a5-dca1893f682c",
+      "ioValues": []
+    },
+    {
+      "atomType": "Import",
+      "name": "Import",
+      "x": 0.4654947916666667,
+      "y": 0.3365384615384615,
+      "uniqueID": "6a436550-3e2a-4c3a-9f6c-9e94e3ad4483",
+      "ioValues": [],
+      "fileName": "surfboard shaping rack rail.STL",
+      "type": "STL",
+      "repoOwner": "neiliamusa",
+      "repoName": "Surfboard-shaping-stand"
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
